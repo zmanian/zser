@@ -33,8 +33,8 @@ we recommend [Cap'n Proto]. For example zser does not have an associated RPC
 protocol, but rather zser is the sort of thing you might use for the
 credentials passed as part of your RPC protocol.
 
-zser's data model is isomorphic with [TJSON], a microformat for extending
-JSON with richer types. All zser documents can be bidirectionally
+zser's data model is isomorphic with a subset of [TJSON], a microformat which
+extends JSON with richer types. All zser documents can be bidirectionally
 transcoded to/from TJSON with no data loss. Furthermore, TJSON documents
 can be authenticated with the same Merkleized hashing scheme as zser,
 meaning signatures for one encoding will validate in the other.
